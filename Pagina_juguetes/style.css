@@ -1,0 +1,134 @@
+
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+}
+
+/* Navbar*/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FEEFDD; 
+  padding: 10px 20px;
+}
+
+.navbar div {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #5A5A5A; 
+  margin: 0 5px; 
+}
+
+.navbar .logo {
+  font-size: 30px; 
+  font-weight: bold;
+  color: #E63946; 
+  letter-spacing: 0.05em; 
+  text-shadow: 2px 2px #F1FAEE; 
+  font-family: 'Courier New', monospace;
+  margin-left: 100px;
+}
+
+.navbar .social-media {
+  font-size: 20px;
+}
+
+.navbar .social-media a {
+  margin-right: 15px;
+}
+
+.navbar .menu {
+  font-size: 18px;
+}
+
+.navbar .menu a {
+  margin-right: 10px;
+}
+
+  
+/* Estilos del Contenido Principal */
+
+.main-content {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+  
+.main-content img {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  object-fit: contain; 
+}
+  
+.top-half {
+  text-align: center; 
+  padding: 0px; 
+  background-image: url(./Img/eyes-2764597_1280.jpg);
+  height: 750px;
+  width: 100%;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+  
+.top-half img {
+  width: 100%;   
+  height: 400px; 
+  object-fit: cover; 
+  display: block;
+  margin: 0 auto; 
+}
+
+  
+.grupo {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.texto-titulos{
+  text-align: center;
+  margin-top: 125px;
+}
+  
+.container-texto{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  column-gap: 10%;
+  margin-bottom: 25px;
+}
+  
+.texto-pregunta {
+  text-align: justify;
+}
+  
+.imagen-grupo-1 {
+  width: 30%;
+}
+  
+.footer {
+  background-color: #000000; 
+  color: white; 
+  text-align: center; 
+  padding: 20px 0; 
+  font-size: 14px; 
+  width: 100%; 
+  position: relative; 
+  left: 0; 
+  bottom: 0;
+  right: 0; 
+}
+
