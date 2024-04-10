@@ -132,3 +132,27 @@ body {
   right: 0; 
 }
 
+/* Estilo para la caja */
+.caja {
+  border: 1px solid #ccc; 
+  padding: 10px; 
+  margin-bottom: 20px; 
+  min-height: 100px; 
+}
+
+/* Estilo para el botón */
+.boton {
+  background-color: #007bff; 
+  color: white; 
+  padding: 10px 20px;
+  cursor: pointer; 
+  display: inline-block; 
+  border-radius: 5px;
+}
+
+/* Estilo para el botón cuando se pasa el mouse sobre él */
+.boton:hover {
+  background-color: #0056b3; /* Color de fondo más oscuro */
+}
+
+
