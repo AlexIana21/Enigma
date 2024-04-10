@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   font-family: 'Courier New', monospace;
@@ -132,7 +131,7 @@ body {
   right: 0; 
 }
 
-/* Estilo para la caja */
+/* 
 .caja {
   border: 1px solid #ccc; 
   padding: 10px; 
@@ -141,7 +140,7 @@ body {
 }
 
 /* Estilo para el botón */
-.boton {
+/*.boton {
   background-color: #007bff; 
   color: white; 
   padding: 10px 20px;
@@ -150,9 +149,7 @@ body {
   border-radius: 5px;
 }
 
-/* Estilo para el botón cuando se pasa el mouse sobre él */
 .boton:hover {
-  background-color: #0056b3; /* Color de fondo más oscuro */
+  background-color: #0056b3; 
 }
-
-
+*/
