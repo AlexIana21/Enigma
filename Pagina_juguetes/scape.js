@@ -33,7 +33,7 @@ function validarRespuestaPrueba2() {
 // Función para validar la respuesta de la prueba 4
 function validarRespuestaPrueba4() {
     var respuesta = document.getElementById("respuestaPrueba4").value.toLowerCase();
-    if (respuesta === "subred 2"    ) {
+    if (respuesta === "2"    ) {
         document.getElementById("respuestaPrueba4").parentNode.classList.add("prueba-oculta");
         document.getElementById("botonPrueba4").classList.add("prueba-oculta");
 
@@ -80,9 +80,9 @@ function validarRespuestaPrueba6() {
 // Función para validar la respuesta de la prueba 7 y mostrar mensaje de completado
 function validarRespuestaPrueba7() {
     var respuesta = document.getElementById("respuestaPrueba7").value;
-    if (respuesta.trim() === "28 partes") {
+    if (respuesta.trim() === "28") {
       document.getElementById("prueba7").classList.add("prueba-oculta");
-      alert("¡Felicidades! Has completado el ScapeRoom.");
+      alert("¡Felicidades! Has completado el Ecape Room.");
     } else {
       document.getElementById("feedbackPrueba7").innerText = "Respuesta incorrecta. Inténtalo de nuevo.";
     }
